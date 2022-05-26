@@ -3,15 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 55vmin;
   pointer-events: none;
 }
 
-
-
 .App-header {
-  background-color: #d8dfef;
-  min-height: 100vh;
+  background-color: #e0e2e7cf;
+  min-height: 110vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,3 +23,38 @@
 }
 
 
+.inputBox input {
+  
+  width: 300px;
+    padding: 9px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.continueButton {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  text-align:center;
+  background-color:#FFBD59;
+  width: 300px;
+  margin-top: 20px;
+}
+.footer{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 140px;
+}
+.footer h2{
+  color:rgb(233,203,82) ;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;}
+  p{
+    color: black;
+  }
